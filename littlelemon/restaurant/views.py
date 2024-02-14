@@ -20,7 +20,7 @@ class MenuItemsView(generics.ListCreateAPIView):
     permission_classes = [IsAuthenticated]
     queryset = Menu.objects.all()
     serializer_class = MenuSerializer
-    
+
 # class MenuItemsView(generics.ListCreateAPIView):
 #   permission_classes = [IsAuthenticated]
 #   queryset = MenuItem.objects.all()
